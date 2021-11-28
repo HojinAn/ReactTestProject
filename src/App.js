@@ -2,6 +2,7 @@ import { useState } from 'react'
 import Children from './Children'
 import './App.css';
 import AccessDom from './components/access_dom/AccessDom'
+import RepeatComponent from './components/repeat_component/index'
 
 function App() {
   // const [count, setCount] = useState(0);
@@ -17,8 +18,11 @@ function App() {
     //     <Children count={count} setCount={setCount} />
     //   </Children>
     // </div>
+    // <div>
+    //   <AccessDom/>
+    // </div>
     <div>
-      <AccessDom/>
+      <RepeatComponent />
     </div>
   );
 }
