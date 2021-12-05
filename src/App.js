@@ -3,6 +3,7 @@ import Children from './Children'
 import './App.css';
 import AccessDom from './components/access_dom/AccessDom'
 import RepeatComponent from './components/repeat_component/index'
+import Hook from './components/hook/index'
 
 function App() {
   // const [count, setCount] = useState(0);
@@ -21,8 +22,11 @@ function App() {
     // <div>
     //   <AccessDom/>
     // </div>
+    // <div>
+    //   <RepeatComponent />
+    // </div>
     <div>
-      <RepeatComponent />
+      <Hook />
     </div>
   );
 }
