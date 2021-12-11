@@ -1,0 +1,1 @@
+기본적으로 \<button\> tag 선택시 input으로 자동적으로 link되지 않는다. 하지만 JavaScript의 addEventListener를 통해서 button 클릭시 input으로 focus를 옮길 수 있다.
